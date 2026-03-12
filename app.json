@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "MediTaskPro",
+    "slug": "meditaskpro",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/app-icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#FFFFFF"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "icon": "./src/assets/app-icon.png",
+      "supportsTablet": true
+    },
+    "android": {
+      "icon": "./src/assets/app-icon.png",
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "plugins": [
+      "expo-asset",
+      "expo-font"
+    ],
+    "extra": {
+    }
+  }
+}
