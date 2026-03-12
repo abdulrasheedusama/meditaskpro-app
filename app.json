@@ -28,6 +28,10 @@
       "expo-font"
     ],
     "extra": {
-    }
+      "eas": {
+        "projectId": "49b707d9-d24c-431f-bb7d-cb7852a22cbd"
+      }
+    },
+    "owner": "usama7073"
   }
 }
