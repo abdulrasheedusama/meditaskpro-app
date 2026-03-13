@@ -22,6 +22,7 @@
         "foregroundImage": "./src/assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
+      "googleServicesFile": "./google-services.json",
       "package": "com.usama7073.meditaskpro"
     },
     "plugins": [
@@ -30,8 +31,8 @@
       [
         "@sentry/react-native/expo",
         {
-          "organization": "YOUR_SENTRY_ORG",
-          "project": "YOUR_SENTRY_PROJECT",
+          "organization": "usama-nz",
+          "project": "meditaskpro",
           "url": "https://sentry.io/"
         }
       ]

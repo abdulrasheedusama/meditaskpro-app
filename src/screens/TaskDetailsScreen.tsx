@@ -225,7 +225,8 @@ const createStyles = (theme: ReturnType<typeof useAppTheme>) =>
       alignItems: 'center'
     },
     togglePillActive: {
-      backgroundColor: theme.colors.primary
+      backgroundColor: theme.colors.primary,
+      borderRadius: theme.radius.pill,
     },
     toggleText: {
       color: theme.colors.textMuted,

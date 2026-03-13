@@ -8,7 +8,9 @@
     "android": "expo run:android",
     "ios": "expo run:ios",
     "web": "expo start --web",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "build:firebase": "eas build --platform android --profile firebaseDistribution",
+    "distribute:firebase": "node ./scripts/firebase-app-distribute.mjs"
   },
   "dependencies": {
     "@expo/vector-icons": "^15.0.3",

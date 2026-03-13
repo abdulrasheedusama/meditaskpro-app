@@ -53,6 +53,35 @@ eas login
 eas build -p android
 ```
 
+#### Firebase App Distribution
+
+The project is configured for Firebase App Distribution on Android.
+
+1. Build an Android APK with EAS:
+
+```bash
+npm run build:firebase
+```
+
+2. Authenticate Firebase CLI using either `firebase login` or a service account:
+
+```bash
+$env:GOOGLE_APPLICATION_CREDENTIALS="C:\path\to\firebase-service-account.json"
+```
+
+3. Upload the generated APK or AAB to Firebase App Distribution:
+
+```bash
+npm run distribute:firebase -- path\to\app.apk --groups qa-team
+```
+
+Notes:
+
+* `app.json` points Expo to `google-services.json` for Android builds.
+* The default Firebase Android App ID is loaded from the current `google-services.json`.
+* You can override it with `FIREBASE_APP_ID`.
+* You can pass any Firebase CLI distribution flags after the artifact path, for example `--testers`, `--groups`, or `--release-notes`.
+
 #### Release Options
 
 After generating the signed APK / AAB, upload it to one of the following:

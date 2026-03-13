@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "924133081364",
+    "project_id": "meditaskpro-app",
+    "storage_bucket": "meditaskpro-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924133081364:android:d779abf90e3252f120c201",
+        "android_client_info": {
+          "package_name": "com.usama7073.meditaskpro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxr_e6FsyOrSZu-ucnO4RduqWcG0UNOQY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
